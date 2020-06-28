@@ -47,6 +47,9 @@
   .fav-img {
     width: 30%;
   }
+  .tours-container a {
+    flex: 0 32%;
+  }
 }
 @media (max-width: 800px) {
   .mini-menu {
@@ -86,6 +89,9 @@
   .service-item {
     width: 100%;
   }
+  .tours-container a {
+    flex: 0 49%;
+  }
 }
 @media (max-width: 600px) {
   .fav-item {
@@ -102,5 +108,8 @@
   }
   .slick-center img {
     filter: blur();
+  }
+  .tours-container a {
+    flex: 0 100%;
   }
 }
